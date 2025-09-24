@@ -1,0 +1,36 @@
+# variabel
+list=[27, 33, 46, 55, 67, 92]
+
+# konversi
+F_1 = (9/5)*list[0] + 32
+F_2 = (9/5)*list[1] + 32
+K_1 = list[2] + 273,15
+K_2 = list[3] + 273,15
+R_1 = (4/5)*list[4]
+R_2 = (4/5)*list[5]
+
+# jumlah
+jumlah = list[0]+list[1]+list[2]+list[3]+list[4]+list[5]
+
+# rata rata
+rata_rata = jumlah/6
+
+# nim
+nim = 60
+boolean = nim<rata_rata
+
+# output
+print("suhu", list)
+print("fahrenheit", F_1)
+print("fahrenheit", F_2)
+print("kelvin", K_1)
+print("kelvin", K_2)
+print("reamur", R_1)
+print("reamur", R_2)
+print("jumlah ", jumlah)
+print("rata rata", rata_rata)
+print("nim", nim)
+print("boolean", boolean)
+
+# slice
+print("slice", list[-4:])
